@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "lib": ["ESNext"],
+    "target": "ESNext",
+    "rootDir": "./",
+    "baseUrl": "./src",
+    "sourceMap": true,
+    "module": "ESNext",
+    "moduleDetection": "force",
+    "allowJs": true,
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "verbatimModuleSyntax": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "types": [
+      "bun"
+    ]
+  },
+  "include": [
+    "./src/**/*.js",
+    "./src/**/*.mjs",
+    "./src/**/*.ts",
+    "./src/**/*.mts",
+    "./**/*.justfile"
+  ]
+}
